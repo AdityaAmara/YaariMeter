@@ -1,0 +1,217 @@
+html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background:linear-gradient(to right, #BF953F, #FCF6BA, #dfc285, #FBF5B7, #cf9a3d);
+}
+
+.container {
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+.testtube-container {
+    margin-top: 50px;
+    width: 100%;
+    flex-basis: 100%;
+    order: 1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+
+.button-container {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    width: 100%;
+    order: 2;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.button-container2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    width: 100%;
+    order: 3;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+
+.img1-con {
+    order: 1;
+    flex-basis: 25%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.img1 {
+   
+    width: 300px;
+    height: 400px;
+    background-color: rgb(210, 210, 210) ;
+    overflow: hidden;
+    border: 3px solid black;
+}
+
+.img1 img {
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.img2-con {
+    order: 4;
+    flex-basis: 25%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.img2 {
+
+    width: 300px;
+    height: 400px;
+    background-color: rgb(210, 210, 210);
+    overflow: hidden;
+    border: 3px solid black;
+}
+
+.img2 img {
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.test-tube1-con {
+    order: 2;
+    flex-basis: 25%;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.test-tube-1 {
+    width: 65px;
+    height: 550px;
+    background-color: rgb(210, 210, 210);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 30px;
+    display: flex;
+    flex-direction: column-reverse;
+    border: 2px solid black;
+    overflow: hidden;
+}
+
+.box1 {
+    width: 65px;
+    height: 0px;
+    background-image: linear-gradient(to right, #b9abab, #ff0202);
+    opacity: 0.9;
+    display: flex;
+    transition: all 0.5s;
+    position: relative;
+}
+
+.number-box1 {
+    margin-left: 10px;
+    width: 65px;
+    height: 535px;
+    line-height: 8px;
+    position: absolute;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.test-tube2-con {
+    order: 3;
+    flex-basis: 25%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.test-tube-2 {
+    width: 65px;
+    height: 550px;
+    background-color: rgb(210, 210, 210);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 30px;
+    display: flex;
+    flex-direction: column-reverse;
+    border: 2px solid black;
+    overflow: hidden;   
+}
+
+.box2 {
+    width: 65px;
+    height: 0px;
+    background-image: linear-gradient(to right, #00b09b, #96c93d);
+    opacity: 0.9;
+    display: flex;
+    transition: all 0.5s;
+    position: relative;
+}
+
+.number-box2 {
+    margin-left: 10px;
+    width: 65px;
+    height: 535px;
+    line-height: 8px;
+    position: absolute;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+#fill-btn-1{
+    width: 200px;
+    height: 50px;
+    background-image: linear-gradient(to right, #b9abab, #ff0202);
+    border-color: inherit;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 900;
+}
+
+#fill-btn-2{
+    width: 200px;
+    height: 50px;
+    background-image: linear-gradient(to left, #00b09b, #96c93d);
+    border-color: inherit;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 900;
+}
+
+#rst-btn-1{
+    width: 200px;
+    height: 30px;
+    background-image: linear-gradient(to right, #b9abab, #ff0202);
+    border-color: inherit;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 900;
+}
+
+#rst-btn-2{
+    width: 200px;
+    height: 30px;
+    background-image: linear-gradient(to left, #00b09b, #96c93d);
+    border-color: inherit;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 900;
+}
